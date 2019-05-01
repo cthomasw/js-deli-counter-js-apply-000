@@ -20,6 +20,7 @@ function currentLine(coolCatsInLine) {
     let cat = '';
     for (cat of coolCatsInLine) {
       let placeInLine = coolCatsInLine.indexOf(cat) + 1;
+      let personPosition = () ? `${placeInLine}. ${cat}` : `${placeInLine}. ${cat}`
       catsStillInLine = catsStillInLine + `${personPosition}`;
     }
     return catsStillInLine
