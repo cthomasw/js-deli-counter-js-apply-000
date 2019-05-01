@@ -17,6 +17,7 @@ function currentLine(coolCatsInLine) {
     return 'The line is currently empty.';
   } else {
     let catsStillInLine = 'The line is currently:';
+    let placeInLine = coolCatsInLine.indexOf(cat)
     for (cat of coolCatsInLine) {
       catsStillInLine = catsStillInLine + `${placeInLine}. ${cat}`
     }
