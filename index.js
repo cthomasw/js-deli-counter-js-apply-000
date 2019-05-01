@@ -24,7 +24,7 @@ function currentLine(coolCatsInLine) {
         `${placeInLine}. ${cat}`
       } else {
         `${placeInLine}. ${cat}`
-    }
+      }
       catsStillInLine = catsStillInLine + `${personPosition}`;
     }
     return catsStillInLine
