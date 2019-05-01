@@ -18,8 +18,8 @@ function currentLine(coolCatsInLine) {
   } else {
     let catsStillInLine = 'The line is currently:';
     for (cat of coolCatsInLine) {
-      let placeInLine = coolCatsInLine.indexOf(cat) + 1;
-      catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
+      //let placeInLine = coolCatsInLine.indexOf(cat) + 1;
+      //catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
     }
     return catsStillInLine
   }
