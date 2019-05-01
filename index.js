@@ -20,6 +20,7 @@ function currentLine(coolCatsInLine) {
     for (cat of coolCatsInLine) {
       //let placeInLine = coolCatsInLine.indexOf(cat) + 1;
       //catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
+      console.log(catsStillInLine);
     }
     return catsStillInLine
   }
