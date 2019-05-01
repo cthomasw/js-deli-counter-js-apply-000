@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(coolCatsInLine) {
-  if (coolCatsInLine.length == 0) {
+  /*if (coolCatsInLine.length == 0) {
     return 'The line is currently empty.';
   } else {
     let catsStillInLine = 'The line is currently:';
@@ -22,5 +22,5 @@ function currentLine(coolCatsInLine) {
       catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
     }
     return catsStillInLine
-  }
+  }*/
 }
