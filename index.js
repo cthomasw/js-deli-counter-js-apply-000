@@ -24,7 +24,7 @@ function currentLine(coolCatsInLine) {
       if (coolCatsInLine.length - 1 == coolCatsInLine.indexOf(cat)) {
         catPosition = `${placeInLine}. ${cat}`
       } else {
-        `${placeInLine}. ${cat}`
+        catPosition = `${placeInLine}. ${cat}`
       }
       catsStillInLine = catsStillInLine + `${catPosition}`;
     }
