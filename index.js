@@ -17,9 +17,10 @@ function currentLine(coolCatsInLine) {
     return 'The line is currently empty.';
   } else {
     let catsStillInLine = 'The line is currently:';
+    let cat = '';
     for (cat of coolCatsInLine) {
-      //let placeInLine = coolCatsInLine.indexOf(cat) + 1;
-      //catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
+      let placeInLine = coolCatsInLine.indexOf(cat) + 1;
+      catsStillInLine = catsStillInLine + ` ${placeInLine}. ${cat}`;
       console.log(catsStillInLine);
     }
     return catsStillInLine
