@@ -20,6 +20,6 @@ function currentLine(coolCatsInLine) {
     for (cat of coolCatsInLine) {
 
     }
-    return `The line is currently: `
+    return catsStillInLine
   }
 }
