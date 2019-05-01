@@ -18,7 +18,7 @@ function currentLine(coolCatsInLine) {
   } else {
     let catsStillInLine = 'The line is currently:';
     for (cat of coolCatsInLine) {
-      catsStillInLine = catsStillInLine + `. ${cat}`
+      catsStillInLine = catsStillInLine + `${placeInLine}. ${cat}`
     }
     return catsStillInLine
   }
