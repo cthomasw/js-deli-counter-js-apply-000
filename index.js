@@ -16,8 +16,9 @@ function currentLine(coolCatsInLine) {
   if (coolCatsInLine.length == 0) {
     return 'The line is currently empty.';
   } else {
+    
     for (cat of coolCatsInLine) {
-      
+
     }
     return `The line is currently: `
   }
