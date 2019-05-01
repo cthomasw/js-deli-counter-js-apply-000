@@ -23,4 +23,5 @@ function currentLine(coolCatsInLine) {
     }
     return catsStillInLine
   }*/
+console.log('test');
 }
