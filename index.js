@@ -22,7 +22,7 @@ function currentLine(coolCatsInLine) {
       let placeInLine = coolCatsInLine.indexOf(cat) + 1;
       let catPosition = '';
       if (coolCatsInLine.length - 1 == coolCatsInLine.indexOf(cat)) {
-        `${placeInLine}. ${cat}`
+        catPosition = `${placeInLine}. ${cat}`
       } else {
         `${placeInLine}. ${cat}`
       }
